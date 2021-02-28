@@ -78,3 +78,7 @@ def hocr_character_parser(hocr):
         page = soup.findNextSibling("div", {"class": "ocr_page"})
 
     return characters
+
+
+def get_text(characters):
+    pass
